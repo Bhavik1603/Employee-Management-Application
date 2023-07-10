@@ -80,6 +80,7 @@ HR\common>
     
 This folder includes files that will be shared between all the layers like **enums** <br>
 To compile GENDER.java <br>
+
 ```bash
 HR\common\src> javac -d ..\classes -classpath;. com\employee\management\enums\*.java
 ```
