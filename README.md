@@ -24,26 +24,33 @@ This application was designed in 3 layers (CONCEPT OF LAYERED PROGRAMMING) <br>
   <li>BL: Business Layer </li>
 </ul>
 
+## COMMON
+This folder includes files that will be shared between all the layers like **enums** <be>
+To create a jar file: <be>
+```bash
+HR\common\classes> jar -cvf ..\dist\hr-common.jar com
+```
 ## DL: DATA LAYER
 ### Folder Structure
 HR\DL>
 <ul>
   <li>classes</li>
   <li>dist</li>
-  <li>src
-  <ul>
-    <li>com
-      <ul>
-    <li>employee
-      <ul>
-    <li>management
-      <ul>
-    <li>hr
-      <ul>
-    <li>dl
-      <ul>
-    <li>dao
+  <li>
+    src
     <ul>
+      <li>com
+        <ul>
+          <li>employee
+            <ul>
+              <li>management
+                <ul>
+                  <li>hr
+                    <ul>
+                      <li>dl
+                        <ul>
+                          <li>dao
+                            <ul>
             <li>DesignationDAO</li>
             <li>EmployeeDAO</li>
           </ul>
@@ -55,7 +62,7 @@ HR\DL>
           </ul>
         </li>
         <li>exceptions
-          <ul><li>DAOException</li></ul>
+          <ul><li>DAOException.java</li></ul>
         </li>
         <li>interfaces
           <ul>
@@ -88,4 +95,26 @@ HR\DL>
   </li>
   <li>testcases</li>
 </ul>
-To compile code in **src** folder
+<br>
+To compile the following files: DAOException.java<br>
+```bash
+HR\DL\src> javac -d ..\classes -classpath ..\..\common\dist\hr-common.jar;. com\employee\management\hr\dl\exceptions\*.java
+```
+To compile the following files: DesignationDTOInterface.java, EmployeeDTOInterface.java <br>
+```bash
+HR\DL\src> javac -d ..\classes -classpath ..\..\common\dist\hr-common.jar;. com\employee\management\hr\dl\interfaces\dto\*.java
+```
+To compile the following files: DesignationDAOInterface.java, EmployeeDAOInterface.java <br>
+```bash
+HR\DL\src> javac -d ..\classes -classpath ..\..\common\dist\hr-common.jar;. com\employee\management\hr\dl\interfaces\dto\*.java
+```
+To compile the following files: DesignationDTO.java, EmployeeDTO.java <br>
+```bash
+HR\DL\src> javac -d ..\classes -classpath ..\..\common\dist\hr-common.jar;. com\employee\management\hr\dl\dto\*.java
+```
+To compile the following files: DesignationDAO.java, EmployeeDAO.java <br>
+```bash
+HR\DL\src> javac -d ..\classes -classpath ..\..\common\dist\hr-common.jar;. com\employee\management\hr\dl\dao\*.java
+```
+
+
