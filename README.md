@@ -96,10 +96,12 @@ HR\DL>
   <li>testcases</li>
 </ul>
 <br>
-To compile the following files: DAOException.java<br>
+To compile the following files: DAOException.java <br>
+
 ```bash
 HR\DL\src> javac -d ..\classes -classpath ..\..\common\dist\hr-common.jar;. com\employee\management\hr\dl\exceptions\*.java
 ```
+
 To compile the following files: DesignationDTOInterface.java, EmployeeDTOInterface.java <br>
 ```bash
 HR\DL\src> javac -d ..\classes -classpath ..\..\common\dist\hr-common.jar;. com\employee\management\hr\dl\interfaces\dto\*.java
