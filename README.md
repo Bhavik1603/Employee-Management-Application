@@ -154,9 +154,9 @@ HR\DL>
     </li>
   </ul>
   </li>
-  <li>testcases</li>
+    <li>testcases</li>
 </ul>
-<br>
+</ul>
 To compile the following files: DAOException.java <br>
 
 ```bash
