@@ -18,8 +18,8 @@ This application was designed in 3 layers (CONCEPT OF LAYERED PROGRAMMING) <br>
 
 ## Folders Abbreviations
 <ul>
-  <li>dl: Data Layer (File Handling Technique)</li>
-  <li>dbdl: Database Data Layer (Database Technique)</li>
-  <li>pl: Presentation Layer</li>
-  <li>bl: Business Layer </li>
+  <li>DL: Data Layer (File Handling Technique)</li>
+  <li>DBDL: Database Data Layer (Database Technique)</li>
+  <li>PL: Presentation Layer</li>
+  <li>BL: Business Layer </li>
 </ul>
