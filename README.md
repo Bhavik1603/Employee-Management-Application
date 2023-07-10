@@ -23,3 +23,69 @@ This application was designed in 3 layers (CONCEPT OF LAYERED PROGRAMMING) <br>
   <li>PL: Presentation Layer</li>
   <li>BL: Business Layer </li>
 </ul>
+
+## DL: DATA LAYER
+### Folder Structure
+HR\DL>
+<ul>
+  <li>classes</li>
+  <li>dist</li>
+  <li>src
+  <ul>
+    <li>com
+      <ul>
+    <li>employee
+      <ul>
+    <li>management
+      <ul>
+    <li>hr
+      <ul>
+    <li>dl
+      <ul>
+    <li>dao
+    <ul>
+            <li>DesignationDAO</li>
+            <li>EmployeeDAO</li>
+          </ul>
+    </li>
+        <li>dto
+          <ul>
+            <li>DesignationDTO</li>
+            <li>EmployeeDTO</li>
+          </ul>
+        </li>
+        <li>exceptions
+          <ul><li>DAOException</li></ul>
+        </li>
+        <li>interfaces
+          <ul>
+            <li>dao
+              <ul>
+                <li>DesignationDAOInterface.java</li>
+                <li>EmployeeDAOInterface.java</li>              
+              </ul>
+            </li>
+            <li>dto
+              <ul>
+                <li>DesignationDTOInterface.java</li>
+                <li>EmployeeDTOInterface.java</li>              
+              </ul>
+            </li>
+          </ul>
+        </li>
+        
+  </ul>
+    </li>
+  </ul>
+    </li>
+  </ul>
+    </li>
+  </ul>
+    </li>
+  </ul>
+    </li>
+  </ul>
+  </li>
+  <li>testcases</li>
+</ul>
+To compile code in **src** folder
