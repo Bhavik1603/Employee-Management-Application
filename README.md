@@ -15,3 +15,11 @@ This application was designed in 3 layers (CONCEPT OF LAYERED PROGRAMMING) <br>
 <li>
 <b>Presentation Layer:</b> This is Graphical User Interface layer uses Java Swing for programming, this layer presents employee data.</li>
 <ul>
+
+## Folders Abbreviations
+<ul>
+  <li>dl: Data Layer (File Handling Technique)</li>
+  <li>dbdl: Database Data Layer (Database Technique)</li>
+  <li>pl: Presentation Layer</li>
+  <li>bl: Business Layer </li>
+</ul>
