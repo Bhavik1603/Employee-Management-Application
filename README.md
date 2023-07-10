@@ -25,11 +25,69 @@ This application was designed in 3 layers (CONCEPT OF LAYERED PROGRAMMING) <br>
 </ul>
 
 ## COMMON
-This folder includes files that will be shared between all the layers like **enums** <be>
-To create a jar file: <be>
+### Folder Structure
+HR\common>
+<ul>
+  <li>classes
+  <ul>
+    <li>com
+      <ul>
+        <li>employee
+          <ul>
+            <li>management
+              <ul>
+                <li>enums
+                  <ul>
+                    <li>GENDER.class</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul></li>
+  <li>dist
+    <ul>
+      <li>hr-common.jar</li>
+    </ul>
+  </li>
+  <li>src
+  <ul>
+    <li>com
+      <ul>
+        <li>employee
+          <ul>
+            <li>management
+              <ul>
+                <li>enums
+                  <ul>
+                    <li>GENDER.java</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  </li>
+  <li>testcases</li>
+  <\ul>
+This folder includes files that will be shared between all the layers like **enums** <br>
+To compile GENDER.java <br>
+```bash
+HR\common\src> javac -d ..\classes -classpath;. com\employee\management\enums\*.java
+```
+To create a jar file of **common** folder: <br>
 ```bash
 HR\common\classes> jar -cvf ..\dist\hr-common.jar com
 ```
+The above line will create **hr-common.jar** file.
+
+
 ## DL: DATA LAYER
 ### Folder Structure
 HR\DL>
