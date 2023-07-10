@@ -14,7 +14,7 @@ This application was designed in 3 layers (CONCEPT OF LAYERED PROGRAMMING) <br>
 <b>Business Layer:</b> This Layer consist of Data Structures, as it takes too much time to perform operations and display them on Graphical User Interface while performing action with file handling.</li>
 <li>
 <b>Presentation Layer:</b> This is Graphical User Interface layer uses Java Swing for programming, this layer presents employee data.</li>
-<ul>
+</ul>
 
 ## Folders Abbreviations
 <ul>
