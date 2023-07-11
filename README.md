@@ -179,5 +179,8 @@ To compile the following files: DesignationDAO.java, EmployeeDAO.java <br>
 ```bash
 HR\DL\src> javac -d ..\classes -classpath ..\..\common\dist\hr-common.jar;. com\employee\management\hr\dl\dao\*.java
 ```
-
+To compile **Testcases** <br>
+```bash
+HR\DL\testcases> javac -classpath ..\..\common\dist\hr-common.jar;..\classes;. *.java
+```
 
