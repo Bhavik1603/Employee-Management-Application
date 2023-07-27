@@ -30,7 +30,6 @@ Gradle 8.2.1
 ------------------------------------------------------------
 
 Build time:   2023-07-10 12:12:35 UTC
-Revision:     a38ec64d3c4612da9083cc506a1ccb212afeecaa
 
 Kotlin:       1.8.20
 Groovy:       3.0.17
