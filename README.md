@@ -16,6 +16,31 @@ This application was designed in 3 layers (CONCEPT OF LAYERED PROGRAMMING) <br>
 <b>Presentation Layer:</b> This is a Graphical User Interface layer that uses Java Swing for programming, this layer presents employee data.</li>
 </ul>
 
+## Environment Specifications
+```bash
+C:\>java -version
+java version "20.0.2" 2023-07-18
+Java(TM) SE Runtime Environment (build 20.0.2+9-78)
+Java HotSpot(TM) 64-Bit Server VM (build 20.0.2+9-78, mixed mode, sharing)
+
+C:\>gradle -version
+
+------------------------------------------------------------
+Gradle 8.2.1
+------------------------------------------------------------
+
+Build time:   2023-07-10 12:12:35 UTC
+Revision:     a38ec64d3c4612da9083cc506a1ccb212afeecaa
+
+Kotlin:       1.8.20
+Groovy:       3.0.17
+Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+JVM:          20.0.2 (Oracle Corporation 20.0.2+9-78)
+OS:           Windows 11 10.0 amd64
+
+```
+
+
 ## Folders Abbreviations
 <ul>
   <li>DL: Data Layer (File Handling Technique)</li>
@@ -24,7 +49,7 @@ This application was designed in 3 layers (CONCEPT OF LAYERED PROGRAMMING) <br>
   <li>BL: Business Layer </li>
 </ul>
 
-## COMMON
+## Common
 This folder includes files that will be shared between all the layers like **enums** <br>
 To compile GENDER.java <br>
 ```bash
@@ -37,7 +62,7 @@ HR\common\classes> jar -cvf ..\dist\hr-common.jar com
 The above line will create a **hr-common.jar** file.
 
 
-## DL: DATA LAYER
+## DL: Data Layer
 To compile the following files: DAOException.java <br>
 ```bash
 HR\DL\src> javac -d ..\classes -classpath ..\..\common\dist\hr-common.jar;. com\employee\management\hr\dl\exceptions\*.java
