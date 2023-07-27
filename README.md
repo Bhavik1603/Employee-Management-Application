@@ -86,3 +86,19 @@ To compile **Testcases** <br>
 ```bash
 HR\DL\testcases> javac -classpath ..\..\common\dist\hr-common.jar;..\classes;. *.java
 ```
+
+## Business Layer
+To compile files:
+```bash
+HR\BL>gradle build
+```
+
+## Presentation Layer
+To compile files:
+```bash
+HR\PL>gradle build
+```
+**To Run the application:**
+```bash
+HR\PL>java -classpath ..\common\dist\hr-common.jar;..\DL\dist\hr-dl-1.0.jar;..\BL\build\libs\BL.jar;build\libs\PL.jar;. com.employee.management.hr.pl.Main
+```
