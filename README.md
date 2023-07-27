@@ -8,7 +8,7 @@ This application was designed in 3 layers (CONCEPT OF LAYERED PROGRAMMING) <br>
    <li>File Handing Technique </li> 
     <li>Database Technique </li>
     </ul>
-    In the Data Layer, we store data by both techniques, we store employee data in files and in databases. CRUD operations can be done using data files or databases.
+    In the Data Layer, data can be stored by both techniques, employee data is stored in files and in databases. CRUD operations can be done using data files or databases.
 </li>
 <li>
 <b>Business Layer:</b> This Layer consists of Data Structures, as it takes too much time to perform operations and display them on Graphical User Interface while performing actions with file handling.</li>
